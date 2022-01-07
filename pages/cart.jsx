@@ -43,25 +43,22 @@ const Cart = () => {
               <span className={styles.total}>GHS39.80</span>
             </td>
           </tr>
-
-          
-          
         </table>
       </div>
       <div className={styles.right}>
-          <div className={styles.wrapper}>
-              <h2 className={styles.title}>CART TOTAL</h2>
-              <div className={styles.totalText}>
-                  <b className={styles.totalTextTitle}>Subtotal:</b>GHS79.60
-              </div>
-              <div className={styles.totalText}>
-                  <b className={styles.totalTextTitle}>Discount:</b>GHS0.00
-              </div>
-              <div className={styles.totalText}>
-                  <b className={styles.totalTextTitle}>Total:</b>GHS79.60
-              </div>
-              <button className={styles.button}>CHECKOUT NOW!</button>
+        <div className={styles.wrapper}>
+          <h2 className={styles.title}>CART TOTAL</h2>
+          <div className={styles.totalText}>
+            <b className={styles.totalTextTitle}>Subtotal:</b>GHS79.60
           </div>
+          <div className={styles.totalText}>
+            <b className={styles.totalTextTitle}>Discount:</b>GHS0.00
+          </div>
+          <div className={styles.totalText}>
+            <b className={styles.totalTextTitle}>Total:</b>GHS79.60
+          </div>
+          <button className={styles.button}>CHECKOUT NOW!</button>
+        </div>
       </div>
     </div>
   );
