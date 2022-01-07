@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
 import Featured_Slider from "../components/Featured_Slider";
+import ProductList from "../components/ProductList";
 import styles from "../styles/Home.module.css";
 
 export default function Home() {
@@ -12,6 +13,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Featured_Slider />
+      <ProductList />
     </div>
   );
 }
